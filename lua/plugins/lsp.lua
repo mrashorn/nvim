@@ -1,7 +1,7 @@
 -- ~/.config/nvim/lua/plugins/lsp.lua
 
-local lspconfig = vim.lsp.config or require("lspconfig")
---local lspconfig = require("lspconfig")
+--local lspconfig = vim.lsp.config or require("lspconfig")
+local lspconfig = require("lspconfig")
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 local function on_attach(_, bufnr)
