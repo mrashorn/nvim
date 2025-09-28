@@ -18,7 +18,7 @@ local function on_attach(_, bufnr)
     signs = true,
     underline = true,
     update_in_insert = false,
-  }, bufnr)
+  })
 end
 
 lspconfig.pyright.setup({
